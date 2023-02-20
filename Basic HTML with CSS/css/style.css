@@ -48,7 +48,7 @@ hr {
 }
 
 .profile-pic {
-    width: 20%;
+    width: 30%;
     margin-bottom: 60px;
 }
 
@@ -195,15 +195,10 @@ li{
     border: none;
     margin-bottom: 20px;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     width: 200px;
     font-family: "montserrat", sans-serif;
     font-size: 16px;
-    border-radius: 6%;
-    -webkit-border-radius: 6%;
-    -moz-border-radius: 6%;
-    -ms-border-radius: 6%;
-    -o-border-radius: 6%;
     cursor: pointer;
     color: #fff;
     background-size: 200%;
