@@ -132,27 +132,35 @@ p {
 }
 
 .Experience {
+    padding-top: 50px;
     width: 60%;
-    margin: 100px auto 100px auto;
+    margin: 200px auto 300px auto;
     line-height: 25px;
     text-align: left;
-    margin-bottom: 300px;
 }
 
 .programming-pic {
     width: 50%;
     float: left;
-    margin: 0px 50px 15px 0px;
+    margin: 0px 100px 0px 0px;
+}
+
+.medal-pic {
+    width: 38%;
+    float: right;
+    margin: 0px 0px 50px 100px;
 }
 
 ol {
+    padding: 0;
+    margin: 0;
     list-style: none;
     counter-reset: list_item;
   }
   ol li {
     counter-increment: list_item;
     padding: 0 0 0 .5em;
-   
+
   }
   ol li::marker {
     content: counter(list_item) ".";
@@ -163,6 +171,8 @@ ol {
 }
 
 li{
-    line-height: 50px;
+    line-height: 33px;
     font-family: 'montserrat', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
