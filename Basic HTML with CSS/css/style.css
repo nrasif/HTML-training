@@ -10,13 +10,7 @@ h1 {
     color: #112D4E;
 }
 
-h2 {
-    font-family: 'montserrat', sans-serif;
-    color: #112D4E;
-    font-weight: bolder;
-}
-
-h3 {
+h2,h3 {
     font-family: 'montserrat', sans-serif;
     color: #112D4E;
     font-weight: bolder;
@@ -24,6 +18,7 @@ h3 {
 
 p {
     font-family: 'montserrat', sans-serif;
+    color: #112D4E;
 }
 
 hr {
@@ -35,11 +30,15 @@ hr {
 
 .name-text {
     font-family: 'Montserrat', sans-serif;
+    color: #112D4E;
 }
 
 .name-style {
     font-family: 'Pacifico', cursive;
+    padding-right: 20px;
+    background-size: 200%;
 }
+
 
 .top-container{
     background-color: #DBE2EF;
@@ -160,7 +159,7 @@ hr {
 .medal-pic {
     width: 38%;
     float: right;
-    margin: 0px 0px 50px 100px;
+    margin: 0px 0px 50px 150px;
 }
 
 ol {
@@ -176,7 +175,7 @@ ol li {
 
   }
 
-  ol li::marker {
+ol li::marker {
     content: counter(list_item) ".";
     color: #112D4E;
     font-weight: bold;
@@ -211,7 +210,7 @@ li{
 }
 
 .btn1 {
-    background-image: linear-gradient(to left, #112D4E, #3F72AF, #DBE2EF);
+    background-image: linear-gradient(to left, #112D4E, rgb(42, 96, 161), #4A7384);
 }
 
 .btn:hover {
